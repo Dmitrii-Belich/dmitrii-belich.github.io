@@ -1,0 +1,15 @@
+.menu__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #10191E;
+  margin-right: 20px;
+  transition: all linear .2s;
+}
+
+.menu__link:last-of-type {
+  margin-right: 0;
+}
+
+.menu__link:hover {
+  opacity: .5;
+}

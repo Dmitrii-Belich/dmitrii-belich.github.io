@@ -1,0 +1,15 @@
+@import url(./__image/grid-container__image.css);
+@import url(./__item/grid-container__item.css);
+@import url(./__link/grid-container__link.css);
+@import url(./__overlay/grid-container__overlay.css);
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220.5px, 1fr));
+  list-style: none;
+  grid-gap: 3%;
+  padding: 0;
+  grid-template-rows: repeat(auto-fit, minmax(50%, 90%));
+  margin: 0;
+}

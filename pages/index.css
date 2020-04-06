@@ -1,4 +1,16 @@
-.page {
+@import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/grid-container/grid-container.css);
+@import url(../blocks/beginner/beginner.css);
+
+
+
+
+
+/*.page {
     font-family: 'Cormorant Garamond';
   }
   
@@ -209,4 +221,4 @@
     background-position: center;
     align-self: center;
   }
-  
+  */

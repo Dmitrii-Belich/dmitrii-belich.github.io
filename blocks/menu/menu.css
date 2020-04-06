@@ -1,0 +1,10 @@
+@import url(./__link/menu__link.css);
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 40px auto;
+}
