@@ -6,6 +6,7 @@
 @import url(./_place/grid-container_place_beginner.css);
 @import url(./_place/grid-container_place_frameworks.css);
 @import url(./_place/grid-container_place_grid.css);
+@import url(./_place/grid-container_place_practice.css);
 
 .grid-container {
   display: grid;

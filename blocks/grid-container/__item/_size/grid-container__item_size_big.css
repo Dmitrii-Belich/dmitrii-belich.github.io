@@ -1,0 +1,6 @@
+@media screen and (max-width: 478px) {
+  .grid-container__item_size_big {
+    order: -1;
+    grid-column: 1/3;
+  }
+}

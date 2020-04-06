@@ -1,0 +1,13 @@
+.grid-container_place_practice {
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-gap: 10px 3%;
+}
+
+@media screen and (max-width: 478px) {
+  .grid-container_place_practice {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
