@@ -1,0 +1,5 @@
+.grid-container_place_grid {
+  grid-template-rows: repeat(auto-fit, minmax(50%, 90%));
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-gap: 3%;
+}
