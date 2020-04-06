@@ -6,15 +6,16 @@
 @import url(./__social-networks/footer__social-networks.css);
 @import url(./__social/footer__social.css);
 @import url(./__title/footer__title.css);
+@import url(./__container/footer__container.css);
 
 
 
 
 .footer {
-  width: 100%;
+  width: 95%;
+  padding: 0 2.5%;
   background-color: black;
   margin: 30px 0 0;
-  height: 200px;
   display: flex;
   justify-content: space-between;
   color: white;
