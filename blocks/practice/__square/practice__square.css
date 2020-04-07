@@ -1,0 +1,11 @@
+.practice__square {
+  position: absolute;
+  top: 5%;
+  right: 0;
+  width: 180px;
+  height: 180px;
+  background-color: #2F80ED;
+  z-index: -1;
+  transform: rotate(-15deg);
+  animation: rotation 20s linear infinite;
+}
