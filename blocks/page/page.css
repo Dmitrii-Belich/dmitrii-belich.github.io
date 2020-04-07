@@ -1,6 +1,7 @@
 .page {
     font-family: 'Cormorant Garamond';
     margin: 0 auto;
+    min-width: 320px;
     /*background: linear-gradient(to bottom, rgb(252, 248, 244), rgb(255, 239, 219));*/
-    background: radial-gradient(at center,  rgb(255, 239, 219), rgb(252, 248, 244));
+    background: radial-gradient(at center,  rgb(223, 205, 183), white);
 }
