@@ -25,36 +25,7 @@
           <img src="./images/IMG_3263.jpg" alt="Фотография Дмитрия" class="profile__image">
           <figcaption>
             <ul class="profile__icons">
-              <li class="social social_type_profile"> 
-                <a href="https://vk.com/id171896324" target="_blank">
-                  <img src="./images/vk.png" alt="" class="social__icon social__icon_type_profile">
-                </a> 
-              </li>
-              <li class="social social_type_profile">  
-                <a href="https://www.instagram.com/dmitriy_belich/" target="_blank">
-                  <img src="./images/instagram.png" alt="" class="social__icon social__icon_type_profile">
-                </a> 
-              </li>
-              <li class="social social_type_profile">  
-                <a href="https://github.com/Dmitrii-Belich"  target="_blank">
-                  <img src="./images/github.png" alt="" class="social__icon social__icon_type_profile">
-                </a> 
-              </li>
-              <li class="social social_type_profile">  
-                <a href="https://api.whatsapp.com/send?phone=79006351840" target="_blank">
-                  <img src="./images/whatsapp.png" alt="" class="social__icon social__icon_type_profile">
-                </a> 
-              </li>
-              <li class="social social_type_profile">  
-                <a href="https://t.me/Diman014"  target="_blank">
-                  <img src="./images/tg.png" alt="" class="social__icon social__icon_type_profile">
-                </a> 
-              </li>
-              <li class="social social_type_profile">  
-                <a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fjoin.slack.com%2Ft%2Fbelichds%2Fshared_invite%2Fzt-dhlqayr8-WI~TBEZeYWLArgm7Um4gZQ" target="_blank">
-                  <img src="./images/slack.png" alt="" class="social__icon social__icon_type_profile">
-                </a> 
-              </li>
+              
             </ul>
           </figcaption>
         </figure>
@@ -74,21 +45,6 @@
           </ul>
          </div>
       </section>
-      <template id="project-section">
-        <section class="project-section">
-          <h2 class="project-section__title"></h2>
-          <p class="project-section__subtitle"></p>
-          <ul class="project-section__container">
-          </ul>
-        </section>
-      </template>
-      <template id="project">
-        <li class="project">
-          <a class="project__link"><img src="" alt="" class="project__image"></a>
-          <h3 class="project__title"></h3>
-          <p class="project__description"></p>
-      </li>
-      </template>
     </main> 
     <footer class="footer">
         <ul class="footer__contacts">
@@ -103,40 +59,40 @@
         <div class="footer__container">
           <h3 class="footer__title">Social networks</h3>
           <ul class="footer__social-networks">
-            <li class="social"> 
-              <a href="https://vk.com/id171896324" target="_blank" class="footer__link">
-                <img src="./images/vk.png" alt="" class="social__icon social__icon_type_footer ">
-              </a> 
-            </li>
-            <li class="social">  
-              <a href="https://www.instagram.com/dmitriy_belich/" class="footer__link" target="_blank">
-                <img src="./images/instagram.png" alt="" class="social__icon social__icon_type_footer ">
-              </a> 
-            </li>
-            <li class="social">  
-              <a href="https://github.com/Dmitrii-Belich" class="footer__link" target="_blank">
-                <img src="./images/github.png" alt="" class="social__icon social__icon_type_footer ">
-              </a> 
-            </li>
-            <li class="social">  
-              <a href="https://api.whatsapp.com/send?phone=79006351840" class="footer__link" target="_blank">
-                <img src="./images/whatsapp.png" alt="" class="social__icon social__icon_type_footer ">
-              </a> 
-            </li>
-            <li class="social">  
-              <a href="https://t.me/Diman014" class="footer__link" target="_blank">
-                <img src="./images/tg.png" alt="" class="social__icon social__icon_type_footer ">
-              </a> 
-            </li>
-            <li class="social">  
-              <a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fjoin.slack.com%2Ft%2Fbelichds%2Fshared_invite%2Fzt-dhlqayr8-WI~TBEZeYWLArgm7Um4gZQ" class="footer__link" target="_blank">
-                <img src="./images/slack.png" alt="" class="social__icon social__icon_type_footer ">
-              </a> 
-            </li>
+
           </ul>
         </div>
         <p class="footer__copyright">&copy;2020. Белич Дмитрий</p>
       </footer>
       <script type="module" src="./pages/index.js"></script>
   </body>
+  <template id="project">
+    <li class="project">
+      <a class="project__link"><img src="" alt="" class="project__image"></a>
+      <h3 class="project__title"></h3>
+      <p class="project__description"></p>
+  </li>
+  </template>
+  <template id="project-section">
+    <section class="project-section">
+      <h2 class="project-section__title"></h2>
+      <p class="project-section__subtitle"></p>
+      <ul class="project-section__container">
+      </ul>
+    </section>
+  </template>
+  <template id="profile-icon">
+    <li class="social social_type_profile"> 
+      <a href="" target="_blank">
+        <img src="" alt="" class="social__icon social__icon_type_profile">
+      </a> 
+    </li>
+</template>
+<template id="footer-icon">
+  <li class="social"> 
+    <a href="" target="_blank">
+      <img src="" alt="" class="social__icon social__icon_type_footer">
+    </a> 
+  </li>
+</template>
 </html>

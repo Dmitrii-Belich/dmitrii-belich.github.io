@@ -1,7 +1,10 @@
-import {projects} from '../utils/data.js';
+import {projects, socialNetworks} from '../utils/data.js';
 import Project from '../components/Project.js';
 import Section from '../components/Section.js';
 import MenuLink from '../components/MenuLink.js';
+import Icon from '../components/Icon.js';
+const footerContainer = document.querySelector('.footer__social-networks');
+const profileContainer = document.querySelector('.profile__icons');
 
 function setMenu () {
   const sections = document.querySelectorAll('section')
@@ -12,7 +15,6 @@ function setMenu () {
     menu.append(element)
   })
 }
-
 projects.forEach((item) => {
   const element = new Section ({title: item.title, subtitle: item.subtitle, id: item.id})
   element.setProjects(item.exampls, function callback(item, container) {
@@ -20,7 +22,14 @@ projects.forEach((item) => {
     container.append(project.getProject())
   })
   document.querySelector('.content').append(element.getSection())
-  
+})
+socialNetworks.forEach((item) => {
+  const element = new Icon ({link: item.link, icon: item.icon}, 'footer-icon').getIcon();
+  footerContainer.append(element);
+})
+socialNetworks.forEach((item) => {
+  const element = new Icon ({link: item.link, icon: item.icon}, 'profile-icon').getIcon();
+  profileContainer.append(element);
 })
 setMenu()
 

@@ -50,3 +50,43 @@ export const projects = [
     ]
   },
   ]
+export const socialIcons = {
+  vk: './images/vk.png',
+  inst: './images/instagram.png',
+  github: './images/github.png',
+  wats: './images/whatsapp.png',
+  tg: './images/tg.png',
+  slack: './images/slack.png',
+}
+export const socialNetworks = [
+  {
+    name: 'vk',
+    link: 'https://vk.com/id171896324',
+    icon: socialIcons.vk,
+  },
+  {
+    name: 'inst',
+    link: 'https://www.instagram.com/dmitriy_belich/',
+    icon: socialIcons.inst,
+  },
+  {
+    name: 'github',
+    link: 'https://github.com/Dmitrii-Belich',
+    icon: socialIcons.github,
+  },
+  {
+    name: 'wats',
+    link: 'https://api.whatsapp.com/send?phone=79006351840',
+    icon: socialIcons.wats,
+  },
+  {
+    name: 'tg',
+    link: 'https://t.me/Diman014',
+    icon: socialIcons.tg,
+  },
+  {
+    name: 'slack',
+    link: 'https://vk.com/away.php?utf=1&to=https%3A%2F%2Fjoin.slack.com%2Ft%2Fbelichds%2Fshared_invite%2Fzt-dhlqayr8-WI~TBEZeYWLArgm7Um4gZQ',
+    icon: socialIcons.slack,
+  },
+]
