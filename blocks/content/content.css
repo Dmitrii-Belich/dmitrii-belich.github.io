@@ -1,1 +1,5 @@
 @import url(./__title/content__title.css);
+
+.content {
+  margin: 0 40px;
+}

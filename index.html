@@ -1,145 +1,106 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="портфолио Белич Дмитрия на Яндекс.Практикуме">
-  <meta name="keywords" content="html, css, javascript">
-  <meta name="author" content="Белич Дмитрий">
-  <link rel="stylesheet" href="https://code.s3.yandex.net/web-code/normalize.css">
-  <link rel="stylesheet" href="./pages/index.css">
-  <title>Портфолио</title>
- <!-- <link rel="shortcut icon" href="./images/icon.png" type="image/png">-->
-</head>
-<body class="page">
-  <header class="header">
-    <h1 class="header__title">Hi! my name is - Dmitrii&nbsp;Belich</h1>
-  </header>
-    <nav class="menu">
-      <!--<a href="#beginner" class="menu__link">Первые шаги в HTML и CSS</a>-->
-      <a href="#practice" class="menu__link">Практика HTML, CSS и JavaScript</a>
-      <a href="#frameworks" class="menu__link">Библиотеки JavaScript</a>
-    </nav>
-   <main class="content">
-        <!--<section id="beginner" class="beginner">
-          <h2 class="content__title">Первые шаги в HTML&nbsp;и&nbsp;CSS</h2>
-          <ul class="grid-container grid-container_place_beginner">
-            <li class="grid-container__item">
-              <a href="#" class="grid-container__link" target="_blank">
-                <img src="./images/album.png" class="grid-container__image">
-                <p class="grid-container__overlay">обложка музыкального альбома</p>
-              </a>
-            </li>
-            <li class="grid-container__item">
-              <a href="#" class="grid-container__link" target="_blank" >
-                <img src="./images/design.png" class="grid-container__image">
-                <p class="grid-container__overlay">посадочная страница</p>
-              </a>
-            </li>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="портфолио Белич Дмитрия Сергеевича">
+    <meta name="keywords" content="html, css, javascript">
+    <meta name="author" content="Белич Дмитрий">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Портфолио</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <h1 class="header__title">Приветствую на странице-портфолио Белич Дмитрия Сергеевича</h1>
+      <nav class="menu">
+        <template id="menu-link">
+        <a href="" class="menu__link"></a>
+      </template>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="profile" id="profile">
+        <img src="./images/IMG_3263.jpg" alt="Фотография Дмитрия" class="profile__image">
+        <div class="profile__wrapper">
+          <h2 class="profile__main-title">Белич Дмитрий Сергеевич</h2>
+          <h3 class="profile__paragraph-title project-section__title">О себе</h3>
+          <p class="profile__text">Значимость этих проблем настолько очевидна, что начало повседневной работы по формированию позиции требует от нас анализа всесторонне сбалансированных нововведений. Значимость этих проблем настолько очевидна, что реализация намеченного плана развития требует от нас анализа новых предложений. Соображения высшего порядка, а также реализация намеченного плана развития позволяет выполнить важнейшие задания по разработке дальнейших направлений развитая системы массового участия
+            Дорогие друзья, консультация с профессионалами из IT влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствующей насущным потребностям. Дорогие друзья, повышение уровня гражданского сознания позволяет оценить значение дальнейших направлений развития проекта! Таким образом, курс на социально-ориентированный национальный проект позволяет выполнить важнейшие задания по разработке соответствующих условий активизации? Соображения высшего порядка, а также консультация с профессионалами из IT обеспечивает актуальность всесторонне сбалансированных нововведений.
+            Дорогие друзья, выбранный нами инновационный путь обеспечивает широкому кругу специалистов участие в формировании ключевых компонентов планируемого обновления! Повседневная практика показывает, что курс на социально-ориентированный национальный проект требует от нас системного анализа дальнейших направлений развития проекта! С другой стороны повышение уровня гражданского сознания создаёт предпосылки качественно новых шагов для экономической целесообразности принимаемых решений? Разнообразный и богатый опыт начало повседневной работы по формированию позиции способствует подготовке и реализации новых предложений!
+            Соображения высшего порядка, а также новая модель организационной деятельности позволяет выполнить важнейшие...</p>
+          <h3 class="profile__paragraph-title">Технологии</h3>
+          <ul class="profile__technologies">
+            <li class="profile__technology">Vue.js</li>
+            <li class="profile__technology">Nuxt.js</li>
+            <li class="profile__technology">ООП</li>
+            <li class="profile__technology">БЭМ</li>
+            <li class="profile__technology">Адаптивность</li>
           </ul>
-        </section>-->
-        <section id="practice" class="practice"> 
-          <h2 class="content__title">Практика HTML, CSS&nbsp;и&nbsp;JavaScript </h2>
-          <ul class="grid-container grid-container_place_practice">
-            <li class="grid-container__item">
-              <a href="./mesto" class="grid-container__link" target="_blank" >
-                <img src="./images/mesto.png" class="grid-container__image">
-                <p class="grid-container__overlay">приложение на JavaScript</p>
-              </a>
-            </li>
-            <li class="grid-container__item grid-container__item_size_big">
-              <a href="./russian-travel/" target="_blank" class="grid-container__link">
-                <img src="./images/across-russia.png" class="grid-container__image">
-                <p class="grid-container__overlay">адаптивная верстка</p>
-              </a>
-            </li>
-            <li class="grid-container__item">
-              <a href="./how-to-learn/" target="_blank" class="grid-container__link">
-                <img src="./images/two_again.png" class="grid-container__image">
-                <div class="practice__square"></div>
-                <p class="grid-container__overlay">css-анимации</p>
-              </a>
-            </li>
+         </div>
+      </section>
+      <template id="project-section">
+        <section class="project-section">
+          <h2 class="project-section__title"></h2>
+          <p class="project-section__subtitle"></p>
+          <ul class="project-section__container">
           </ul>
         </section>
-
-        <section id="frameworks" class="frameworks"> 
-          <h2 class="content__title"> Библиотеки JavaScript </h2>
-          <ul class="grid-container grid-container_place_frameworks">
-            <li class="grid-container__item">
-              <a href="./procrastinate/" class="grid-container__link" target="_blank" >
-                <video src="./videos/procrastinate.mp4" class="grid-container__video" autoplay muted loop></video>
-                <p class="grid-container__overlay">идеи для прокрастинации</p>
-              </a>
-            </li>
-            <li class="grid-container__item">
-              <ul class="grid-container grid-container_place_grid">
-                <li class="grid-container__item">
-                  <a href="#" class="grid-container__link" target="_blank" >
-                    <img src="./images/slider.gif" class="grid-container__image">
-                    <p class="grid-container__overlay">слайдер</p>
-                  </a>
-                </li>
-                <li class="grid-container__item">
-                  <a href="#" class="grid-container__link" target="_blank">
-                    <img src="./images/reactive.gif" class="grid-container__image">
-                    <p class="grid-container__overlay">React, Vue, Angular</p>
-                  </a>
-                </li>
-              </ul>
-              <video src="./videos/like.mp4" class="grid-container__video" autoplay muted loop></video>
-            </li>
-          </ul>
-        </section>
-
-        
+      </template>
+      <template id="project">
+        <li class="project">
+          <a class="project__link"><img src="" alt="" class="project__image"></a>
+          <h3 class="project__title"></h3>
+          <p class="project__description"></p>
+      </li>
+      </template>
     </main> 
     <footer class="footer">
-      <ul class="footer__contacts">
-        <h3 class="footer__title">Contacts</h3>
-        <li class="footer__contact">  
-          <a href="tel:+79006351840" class="footer__link">+7 (900) 635 18 40</a> 
-        </li>
-        <li class="footer__contact"> 
-          <a href="mailto:belich.ds@yandex.ru" class="footer__link">belich.ds@yandex.ru</a> 
-        </li>
-      </ul>
-      <div class="footer__container">
-        <h3 class="footer__title">Social networks</h3>
-        <ul class="footer__social-networks">
-          <li class="footer__social"> 
-            <a href="https://vk.com/id171896324" target="_blank" class="footer__link">
-              <img src="./images/vk.png" alt="" class="footer__social-icon">
-            </a> 
+        <ul class="footer__contacts">
+          <h3 class="footer__title">Contacts</h3>
+          <li class="footer__contact">  
+            <a href="tel:+79006351840" class="footer__link">+7 (900) 635 18 40</a> 
           </li>
-          <li class="footer__social">  
-            <a href="https://www.instagram.com/dmitriy_belich/" class="footer__link" target="_blank">
-              <img src="./images/instagram.png" alt="" class="footer__social-icon">
-            </a> 
-          </li>
-          <li class="footer__social">  
-            <a href="https://github.com/Dmitrii-Belich" class="footer__link" target="_blank">
-              <img src="./images/github.png" alt="" class="footer__social-icon">
-            </a> 
-          </li>
-          <li class="footer__social">  
-            <a href="https://api.whatsapp.com/send?phone=79006351840" class="footer__link" target="_blank">
-              <img src="./images/whatsapp.png" alt="" class="footer__social-icon">
-            </a> 
-          </li>
-          <li class="footer__social">  
-            <a href="https://t.me/Diman014" class="footer__link" target="_blank">
-              <img src="./images/tg.png" alt="" class="footer__social-icon">
-            </a> 
-          </li>
-          <li class="footer__social">  
-            <a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fjoin.slack.com%2Ft%2Fbelichds%2Fshared_invite%2Fzt-dhlqayr8-WI~TBEZeYWLArgm7Um4gZQ" class="footer__link" target="_blank">
-              <img src="./images/slack.png" alt="" class="footer__social-icon">
-            </a> 
+          <li class="footer__contact"> 
+            <a href="mailto:belich.ds@yandex.ru" class="footer__link">belich.ds@yandex.ru</a> 
           </li>
         </ul>
-      </div>
-      <p class="footer__copyright">&copy;2020. Белич Дмитрий</p>
-    </footer>
-</body>
+        <div class="footer__container">
+          <h3 class="footer__title">Social networks</h3>
+          <ul class="footer__social-networks">
+            <li class="footer__social"> 
+              <a href="https://vk.com/id171896324" target="_blank" class="footer__link">
+                <img src="./images/vk.png" alt="" class="footer__social-icon">
+              </a> 
+            </li>
+            <li class="footer__social">  
+              <a href="https://www.instagram.com/dmitriy_belich/" class="footer__link" target="_blank">
+                <img src="./images/instagram.png" alt="" class="footer__social-icon">
+              </a> 
+            </li>
+            <li class="footer__social">  
+              <a href="https://github.com/Dmitrii-Belich" class="footer__link" target="_blank">
+                <img src="./images/github.png" alt="" class="footer__social-icon">
+              </a> 
+            </li>
+            <li class="footer__social">  
+              <a href="https://api.whatsapp.com/send?phone=79006351840" class="footer__link" target="_blank">
+                <img src="./images/whatsapp.png" alt="" class="footer__social-icon">
+              </a> 
+            </li>
+            <li class="footer__social">  
+              <a href="https://t.me/Diman014" class="footer__link" target="_blank">
+                <img src="./images/tg.png" alt="" class="footer__social-icon">
+              </a> 
+            </li>
+            <li class="footer__social">  
+              <a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fjoin.slack.com%2Ft%2Fbelichds%2Fshared_invite%2Fzt-dhlqayr8-WI~TBEZeYWLArgm7Um4gZQ" class="footer__link" target="_blank">
+                <img src="./images/slack.png" alt="" class="footer__social-icon">
+              </a> 
+            </li>
+          </ul>
+        </div>
+        <p class="footer__copyright">&copy;2020. Белич Дмитрий</p>
+      </footer>
+      <script type="module" src="./pages/index.js"></script>
+  </body>
 </html>

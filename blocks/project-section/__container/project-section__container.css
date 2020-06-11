@@ -1,0 +1,15 @@
+.project-section__container {
+/*   display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-gap: 30px;
+  list-style: none;
+  justify-content: center; */
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+  flex-wrap: wrap;
+}

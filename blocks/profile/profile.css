@@ -1,0 +1,12 @@
+@import url(./__image/profile__image.css);
+@import url(./__main-title/profile__main-title.css);
+@import url(./__paragraph-title/profile__paragraph-title.css);
+@import url(./__text/profile__text.css);
+@import url(./__wrapper/profile__wrapper.css);
+
+.profile {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  grid-column-gap: 2%;
+}
