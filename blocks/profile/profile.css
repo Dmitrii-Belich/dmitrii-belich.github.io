@@ -3,6 +3,8 @@
 @import url(./__paragraph-title/profile__paragraph-title.css);
 @import url(./__text/profile__text.css);
 @import url(./__wrapper/profile__wrapper.css);
+@import url(./__figure/profile__figure.css);
+@import url(./__icons/profile__icons.css);
 
 .profile {
   display: grid;

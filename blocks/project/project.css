@@ -2,7 +2,6 @@
 @import url(./__image/project__image.css);
 @import url(./__title/project__title.css);
 .project {
-  width: 350px;
-
-  margin: 20px;
+  width: 430px;
+  margin: 10px;
 }
