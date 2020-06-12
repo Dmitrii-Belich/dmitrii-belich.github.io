@@ -28,7 +28,7 @@
 
 
 
-@media screen and (max-width: 1280px) and (min-width: 1000px) {
+@media screen and (max-width: 1280px) and (min-width: 1019px) {
   .profile__figure {
     width: 500px;
   }

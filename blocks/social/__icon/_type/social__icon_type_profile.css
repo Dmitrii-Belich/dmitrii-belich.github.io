@@ -2,7 +2,7 @@
   width: 70px;
 }
 
-@media screen and (max-width: 1280px) and (min-width: 1000px) {
+@media screen and (max-width: 1280px) and (min-width: 1019px) {
   .social__icon_type_profile{
     width: 50px;
   }

@@ -11,7 +11,7 @@
     margin-left: 40px;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1018px) {
   .profile__wrapper {
     max-width: 100%;
     min-width: 0;
