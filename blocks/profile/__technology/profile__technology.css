@@ -1,5 +1,5 @@
 .profile__technology {
-  padding: 0 0 0 30px ;
+  padding: 0 0 0 30px;
   background: url(../../../images/check.svg) no-repeat 0/20px;
 }
 
@@ -7,4 +7,4 @@
   .profile__technology {
     background: url(../../../images/check.svg) no-repeat 0/15px;
   }
-  }
+}

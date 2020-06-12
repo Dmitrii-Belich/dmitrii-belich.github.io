@@ -1,6 +1,0 @@
-@import url(./_size/grid-container__item_size_big.css);
-
-.grid-container__item {
- position: relative;
- overflow: hidden;
-}

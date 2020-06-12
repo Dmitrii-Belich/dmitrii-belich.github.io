@@ -6,20 +6,20 @@
 }
 
 @media screen and (max-width: 1280px) {
-  .project-section__title  {
+  .project-section__title {
     font-size: 25px;
   }
+}
+
+@media screen and (max-width: 1018px) {
+  .project-section__title {
+    margin: 25px 0 0;
+    font-size: 25px;
   }
+}
 
-  @media screen and (max-width: 1018px) {
-    .project-section__title  {
-      margin: 25px 0 0;
-      font-size: 25px;
-    }
-    }
-
-    @media screen and (max-width: 590px) {
-      .project-section__title  {
-        font-size: 20px;
-      }
-      }
+@media screen and (max-width: 590px) {
+  .project-section__title {
+    font-size: 20px;
+  }
+}

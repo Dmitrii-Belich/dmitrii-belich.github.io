@@ -1,9 +1,9 @@
 .menu__link {
   font-size: 18px;
   text-decoration: none;
-  color: #10191E;
+  color: #10191e;
   margin-right: 20px;
-  transition: all linear .2s;
+  transition: all linear 0.2s;
 }
 
 .menu__link:last-of-type {
@@ -11,7 +11,7 @@
 }
 
 .menu__link:hover {
-  opacity: .5;
+  opacity: 0.5;
 }
 
 @media screen and (max-width: 590px) {
@@ -19,5 +19,4 @@
     font-size: 12px;
     margin-right: 10px;
   }
-  
 }

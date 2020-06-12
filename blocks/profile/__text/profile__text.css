@@ -1,15 +1,15 @@
 .profile__text {
- margin: 0 0 8px;
- font-size: 20px;
+  margin: 0 0 8px;
+  font-size: 20px;
 }
 @media screen and (max-width: 1280px) {
-.profile__text {
-  font-size: 15px;
- }
+  .profile__text {
+    font-size: 15px;
+  }
 }
 
 @media screen and (max-width: 590px) {
   .profile__text {
     font-size: 12px;
-   }
   }
+}

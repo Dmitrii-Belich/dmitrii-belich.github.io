@@ -8,10 +8,10 @@
   .profile__paragraph-title {
     font-size: 20px;
   }
+}
+@media screen and (max-width: 590px) {
+  .profile__paragraph-title {
+    margin: 10px 0;
+    font-size: 15px;
   }
-  @media screen and (max-width: 590px) {
-    .profile__paragraph-title {
-      margin: 10px 0;
-      font-size: 15px;
-    }
-    }
+}

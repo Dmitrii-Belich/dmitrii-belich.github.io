@@ -7,13 +7,9 @@
 @import url(./__container/footer__container.css);
 @import url(./__wrapper/footer__wrapper.css);
 
-
-
-
 .footer {
   width: 100%;
   background-color: black;
   margin: 30px 0 0;
-display: flex;
+  display: flex;
 }
-

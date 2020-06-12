@@ -8,18 +8,18 @@
   .profile__main-title {
     font-size: 25px;
   }
+}
+
+@media screen and (max-width: 1018px) {
+  .profile__main-title {
+    margin: 25px 0 0;
+    font-size: 25px;
+    text-align: center;
   }
+}
 
-  @media screen and (max-width: 1018px) {
-    .profile__main-title {
-      margin: 25px 0 0;
-      font-size: 25px;
-      text-align: center;
-    }
-    }
-
-    @media screen and (max-width: 590px) {
-      .profile__main-title {
-        font-size: 20px;
-      }
-      }
+@media screen and (max-width: 590px) {
+  .profile__main-title {
+    font-size: 20px;
+  }
+}

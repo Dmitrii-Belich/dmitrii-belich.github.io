@@ -8,10 +8,10 @@
   .project__title {
     font-size: 20px;
   }
+}
+@media screen and (max-width: 590px) {
+  .project__title {
+    margin: 10px 0;
+    font-size: 15px;
   }
-  @media screen and (max-width: 590px) {
-    .project__title {
-      margin: 10px 0;
-      font-size: 15px;
-    }
-    }
+}
