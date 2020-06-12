@@ -5,24 +5,15 @@
 @import url(./__social-networks/footer__social-networks.css);
 @import url(./__title/footer__title.css);
 @import url(./__container/footer__container.css);
+@import url(./__wrapper/footer__wrapper.css);
 
 
 
 
 .footer {
-  width: 95%;
-  padding: 0 2.5%;
+  width: 100%;
   background-color: black;
   margin: 30px 0 0;
-  display: flex;
-  justify-content: space-between;
-  color: white;
+display: flex;
 }
 
-@media screen and (max-width: 478px) {
-  .footer {
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-  }
-}

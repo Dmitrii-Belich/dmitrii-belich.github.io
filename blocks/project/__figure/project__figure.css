@@ -9,7 +9,6 @@
 }
 
 .project__figure::before {
-  opacity: 0;
   display: block;
   position: absolute;
   top: 60%;
@@ -17,14 +16,32 @@
   right: 0;
   bottom: 0;
   content: '';
-  background-color: rgba(0, 0, 0, .7);
+  background-color: rgba(0, 0, 0, .6);
   clip-path: polygon( 0 100%, 100% 0, 100% 100%);
-   transform: translateY(120px); 
-  transition: transform ease 0s;
 }
 
-.project__figure:hover::before {
-  opacity: 1;
- transform: translateY(0px); 
-  transition: transform ease .2s;
+
+@media screen and (min-width: 760px) {
+  .project__figure::before {
+    opacity: 0;
+    transform: translateY(120px); 
+    transition: transform ease 0s;
+  }
+  .project__figure:hover::before {
+    opacity: 1;
+   transform: translateY(0px); 
+    transition: transform ease .2s;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .project__figure {
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .project__figure {
+    height: 200px;
+  }
 }

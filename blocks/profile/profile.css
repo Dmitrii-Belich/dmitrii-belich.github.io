@@ -7,8 +7,9 @@
 @import url(./__icons/profile__icons.css);
 
 .profile {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
-  grid-column-gap: 2%;
+  justify-content: center;
 }
+

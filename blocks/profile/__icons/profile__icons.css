@@ -7,3 +7,25 @@
   list-style-type: none;
 }
 
+@media screen and (max-width: 1280px) and (min-width: 1000px) {
+  .profile__icons {
+    padding: 30px 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .profile__icons {
+    padding: 30px 30px 0 0;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .profile__icons {
+    padding: 20px 20px 0 0;
+  }
+}
+@media screen and (max-width: 350px) {
+  .profile__icons {
+    padding: 10px 10px 0 0;
+  }
+} 
