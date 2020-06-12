@@ -36,6 +36,20 @@ socialNetworks.forEach((item) => {
   profileContainer.append(element);
 })
 setMenu()
+const Icons = document.querySelectorAll('.social');
+const profileFigure = document.querySelector('.profile__figure');
+const projectFigures = document.querySelectorAll('.project__figure');
 
+if (('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch) {
+  Icons.forEach(item => {
+    item.classList.add('social_type_touch');
+  })
+} else {
+  projectFigures.forEach(item => {
+    item.classList.add('project__figure_type_notouch');
+  })
+  profileFigure.classList.add('profile__figure_type_notouch');
+  
+}
 
 
