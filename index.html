@@ -68,7 +68,13 @@
   </body>
   <template id="project">
     <li class="project">
-      <a class="project__link"><img src="" alt="" class="project__image"></a>
+      <figure class="project__figure"><a class="project__link"><img src="" alt="" class="project__image"></a>
+        <figcaption>
+          <ul class="project__icons">
+ 
+          </ul>
+        </figcaption>
+      </figure>
       <h3 class="project__title"></h3>
       <p class="project__description"></p>
   </li>
@@ -92,6 +98,13 @@
   <li class="social"> 
     <a href="" target="_blank">
       <img src="" alt="" class="social__icon social__icon_type_footer">
+    </a> 
+  </li>
+</template>
+<template id="project-icon">
+  <li class="social social_type_project"> 
+    <a href="" target="_blank">
+      <img src="" alt="" class="social__icon social__icon_type_project">
     </a> 
   </li>
 </template>

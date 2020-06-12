@@ -1,3 +1,12 @@
+export const socialIcons = {
+  vk: './images/vk.png',
+  inst: './images/instagram.png',
+  github: './images/github.png',
+  wats: './images/whatsapp.png',
+  tg: './images/tg.png',
+  slack: './images/slack.png',
+  rekomend: './images/rekomend.svg',
+}
 export const projects = [
   {
     title: 'Основные проекты',
@@ -9,24 +18,57 @@ export const projects = [
         subtitle: 'sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf',
         link: '',
         image: './images/raklechitsya.jpg',
+        icons: [
+          {
+            name: 'recomendation',
+            link: './rekomendations/raklechitsya.pdf',
+            icon: socialIcons.rekomend,
+          },
+          {
+            name: 'code',
+            link: 'https://github.com/Dmitrii-Belich/raklechitsa',
+            icon: socialIcons.github,
+          },
+        ]
       },
       {
         title: 'Проект "Место"',
         subtitle: 'sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf',
         link: '/mesto',
         image: './images/mesto.png',
+        icons: [
+          {
+            name: 'code',
+            link: 'https://github.com/Dmitrii-Belich/mesto',
+            icon: socialIcons.github,
+          },
+        ]
       },
       {
         title: 'Проект "Путешествия по России"',
         subtitle: 'sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf',
         link: '/russian-travel/',
         image: './images/across-russia.png',
+        icons: [
+          {
+            name: 'code',
+            link: 'https://github.com/Dmitrii-Belich/russian-travel',
+            icon: socialIcons.github,
+          },
+        ]
       },
       {
         title: 'Проект "Научиться учиться"',
         subtitle: 'sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf',
         link: '/how-to-learn/',
         image: './images/how-to-study.png',
+        icons: [
+          {
+            name: 'code',
+            link: 'https://github.com/Dmitrii-Belich/how-to-learn',
+            icon: socialIcons.github,
+          },
+        ]
       },
     ]
   },
@@ -40,24 +82,31 @@ export const projects = [
         subtitle: 'sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf',
         link: '/procrastinate/',
         image: './images/procrastinate.png',
+        icons: [
+          {
+            name: 'code',
+            link: 'https://github.com/Dmitrii-Belich/procrastinate',
+            icon: socialIcons.github,
+          },
+        ]
       },
       {
         title: 'Проект "Dappy"',
         subtitle: 'sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf',
         link: '/crypto/',
         image: './images/dappy.svg',
+        icons: [
+          {
+            name: 'code',
+            link: 'https://github.com/Dmitrii-Belich/crypto',
+            icon: socialIcons.github,
+          },
+        ]
       },
     ]
   },
   ]
-export const socialIcons = {
-  vk: './images/vk.png',
-  inst: './images/instagram.png',
-  github: './images/github.png',
-  wats: './images/whatsapp.png',
-  tg: './images/tg.png',
-  slack: './images/slack.png',
-}
+
 export const socialNetworks = [
   {
     name: 'vk',

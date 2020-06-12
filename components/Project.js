@@ -15,9 +15,17 @@ export default class Project {
     this._elementTitle.textContent = this._title;
     this._elementSubtitle.textContent = this._subtitle;
     this._elementImage.src = this._image;
+    this._elementConatainer = this._element.querySelector('.project__icons')
+  }
+  setLinks(array, callback) {
+    this._setAtttibutes()
+    array.forEach(item => {
+      callback(item, this._elementConatainer);
+    });
+
   }
   getProject() {
-    this._setAtttibutes()
+    
     return this._element
   }
 }

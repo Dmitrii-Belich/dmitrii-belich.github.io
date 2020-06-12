@@ -19,6 +19,10 @@ projects.forEach((item) => {
   const element = new Section ({title: item.title, subtitle: item.subtitle, id: item.id})
   element.setProjects(item.exampls, function callback(item, container) {
     const project = new Project ({title: item.title, subtitle: item.subtitle, link: item.link, image: item.image})
+    project.setLinks(item.icons, function callback(item, container) {
+      const icon = new Icon ({link: item.link, icon: item.icon}, 'project-icon').getIcon();
+      container.append(icon)
+    })
     container.append(project.getProject())
   })
   document.querySelector('.content').append(element.getSection())
@@ -32,5 +36,6 @@ socialNetworks.forEach((item) => {
   profileContainer.append(element);
 })
 setMenu()
+
 
 
