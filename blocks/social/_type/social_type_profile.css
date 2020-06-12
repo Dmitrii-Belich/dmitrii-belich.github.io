@@ -1,4 +1,4 @@
-@media screen and (min-width: 760px) {
+
 .social_type_profile {
 transform: translateX(130px);
 opacity: 0;
@@ -53,11 +53,3 @@ transition: transform ease 0s;
                     .profile__figure:hover   .social_type_profile:nth-child(6){
                       transition: transform ease .2s .5s;
                       }
-                    }
-
-                    @media screen and (max-width: 760px) {
-                      .social_type_profile {
-                      transform: translateX(0px);
-                      opacity: 1;
-                      }
-                                          }
