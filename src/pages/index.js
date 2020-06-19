@@ -1,4 +1,4 @@
-import "../pages/index.css";
+import "./index.css";
 import { projects, socialNetworks } from "../utils/data.js";
 import Project from "../components/Project.js";
 import Section from "../components/Section.js";
@@ -72,7 +72,6 @@ if (
     item.classList.add("social_type_touch");
   });
 } else {
-  console.log(projectFigures)
   projectFigures.forEach((item) => {
     item.classList.add("project__figure_type_notouch");
   });
