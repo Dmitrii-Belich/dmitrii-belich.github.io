@@ -29,8 +29,8 @@ export const projects = [
       {
         title: 'Проект "РакЛечится"',
         subtitle:
-          "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
-        link: "../rekomendations/raklechitsya.pdf",
+          "Проект по переносу сайта с Tilda. Выполнен на Nuxt.js командой на конкурсной основе.",
+        link: "https://github.com/Dmitrii-Belich/raklechitsa",
         image: rakImage,
         icons: [
           {
@@ -48,7 +48,7 @@ export const projects = [
       {
         title: 'Проект "Место"',
         subtitle:
-          "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
+          "Проект, созданный по программе обучения в Яндекс.Практикум, призван продемонстрировать навыки JavaScript, ООП, валидации форм и работы с WebPack. (В разработке)",
         link: "/mesto",
         image: mestoImage,
         icons: [
@@ -62,7 +62,7 @@ export const projects = [
       {
         title: 'Проект "Путешествия по России"',
         subtitle:
-          "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
+          "Проект, созданный по программе обучения в Яндекс.Практикум, призван реализовать на практике навыки адаптивной верстки.",
         link: "/russian-travel/",
         image: acrossImage,
         icons: [
@@ -76,7 +76,7 @@ export const projects = [
       {
         title: 'Проект "Научиться учиться"',
         subtitle:
-          "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
+          "Проект, созданный по программе обучения в Яндекс.Практикум, призван реализовать навыки верстки и работы с анимациями.",
         link: "/how-to-learn/",
         image: studyImage,
         icons: [
@@ -98,7 +98,7 @@ export const projects = [
       {
         title: 'Проект "Идеи для прокрастинации"',
         subtitle:
-          "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
+          "Проект, созданный по программе обучения в Яндекс.Практикум, был создан для демонстрации начальных навыков JavaScript.",
         link: "/procrastinate/",
         image: procrastinateImage,
         icons: [
@@ -112,7 +112,7 @@ export const projects = [
       {
         title: 'Проект "Dappy"',
         subtitle:
-          "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
+          "Проект, созданый для применения на практики навыков командной работы с помощью GitHub.",
         link: "/crypto/",
         image: dappyImage,
         icons: [

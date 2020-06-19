@@ -1,6 +1,6 @@
 .project-section__container {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   list-style: none;
   text-align: center;
   padding: 0;
