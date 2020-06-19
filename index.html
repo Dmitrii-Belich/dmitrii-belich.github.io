@@ -6,7 +6,6 @@
     <meta name="description" content="портфолио Белич Дмитрия Сергеевича" />
     <meta name="keywords" content="html, css, javascript" />
     <meta name="author" content="Белич Дмитрий" />
-    <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="./images/icon.png" type="image/png" />
     <title>Портфолио</title>
   </head>
@@ -91,48 +90,48 @@
         <p class="footer__copyright">&copy;2020. Белич Дмитрий</p>
       </div>
     </footer>
-    <script type="module" src="./pages/index.js"></script>
+    <template id="project">
+      <li class="project">
+        <figure class="project__figure">
+          <a class="project__link"
+            ><img  alt="" class="project__image"
+          /></a>
+          <figcaption>
+            <ul class="project__icons"></ul>
+          </figcaption>
+        </figure>
+        <h3 class="project__title"></h3>
+        <p class="project__description"></p>
+      </li>
+    </template>
+    <template id="project-section">
+      <section class="project-section">
+        <h2 class="project-section__title"></h2>
+        <p class="project-section__subtitle"></p>
+        <ul class="project-section__container"></ul>
+      </section>
+    </template>
+    <template id="profile-icon">
+      <li class="social social_type_profile">
+        <a href="" target="_blank">
+          <img alt="" class="social__icon social__icon_type_profile" />
+        </a>
+      </li>
+    </template>
+    <template id="footer-icon">
+      <li class="social">
+        <a href="" target="_blank">
+          <img alt="" class="social__icon social__icon_type_footer" />
+        </a>
+      </li>
+    </template>
+    <template id="project-icon">
+      <li class="social social_type_project">
+        <a href="" target="_blank">
+          <img alt="" class="social__icon social__icon_type_project" />
+        </a>
+      </li>
+    </template>
   </body>
-  <template id="project">
-    <li class="project">
-      <figure class="project__figure">
-        <a class="project__link"
-          ><img src="" alt="" class="project__image"
-        /></a>
-        <figcaption>
-          <ul class="project__icons"></ul>
-        </figcaption>
-      </figure>
-      <h3 class="project__title"></h3>
-      <p class="project__description"></p>
-    </li>
-  </template>
-  <template id="project-section">
-    <section class="project-section">
-      <h2 class="project-section__title"></h2>
-      <p class="project-section__subtitle"></p>
-      <ul class="project-section__container"></ul>
-    </section>
-  </template>
-  <template id="profile-icon">
-    <li class="social social_type_profile">
-      <a href="" target="_blank">
-        <img src="" alt="" class="social__icon social__icon_type_profile" />
-      </a>
-    </li>
-  </template>
-  <template id="footer-icon">
-    <li class="social">
-      <a href="" target="_blank">
-        <img src="" alt="" class="social__icon social__icon_type_footer" />
-      </a>
-    </li>
-  </template>
-  <template id="project-icon">
-    <li class="social social_type_project">
-      <a href="" target="_blank">
-        <img src="" alt="" class="social__icon social__icon_type_project" />
-      </a>
-    </li>
-  </template>
+
 </html>

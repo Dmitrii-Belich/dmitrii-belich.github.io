@@ -1,11 +1,24 @@
+import vkIcon from "../images/vk.png";
+import instIcon from  "../images/instagram.png";
+import githubIcon from  "../images/github.png";
+import watsIcon from  "../images/whatsapp.png";
+import tgIcon from "../images/tg.png";
+import slackIcon from "../images/slack.png";
+import rekomendIcon from  "../images/rekomend.svg";
+import rakImage from "../images/raklechitsya.jpg";
+import mestoImage from "../images/mesto.png";
+import acrossImage from "../images/across-russia.png";
+import studyImage from "../images/how-to-study.png";
+import procrastinateImage from "../images/procrastinate.png";
+import dappyImage from "../images/dappy.svg";
 export const socialIcons = {
-  vk: "./images/vk.png",
-  inst: "./images/instagram.png",
-  github: "./images/github.png",
-  wats: "./images/whatsapp.png",
-  tg: "./images/tg.png",
-  slack: "./images/slack.png",
-  rekomend: "./images/rekomend.svg",
+  vk: vkIcon,
+  inst: instIcon,
+  github: githubIcon,
+  wats: watsIcon,
+  tg: tgIcon,
+  slack: slackIcon,
+  rekomend: rekomendIcon,
 };
 export const projects = [
   {
@@ -17,12 +30,12 @@ export const projects = [
         title: 'Проект "РакЛечится"',
         subtitle:
           "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
-        link: "",
-        image: "./images/raklechitsya.jpg",
+        link: "../rekomendations/raklechitsya.pdf",
+        image: rakImage,
         icons: [
           {
             name: "recomendation",
-            link: "./rekomendations/raklechitsya.pdf",
+            link: "../rekomendations/raklechitsya.pdf",
             icon: socialIcons.rekomend,
           },
           {
@@ -37,7 +50,7 @@ export const projects = [
         subtitle:
           "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
         link: "/mesto",
-        image: "./images/mesto.png",
+        image: mestoImage,
         icons: [
           {
             name: "code",
@@ -51,7 +64,7 @@ export const projects = [
         subtitle:
           "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
         link: "/russian-travel/",
-        image: "./images/across-russia.png",
+        image: acrossImage,
         icons: [
           {
             name: "code",
@@ -65,7 +78,7 @@ export const projects = [
         subtitle:
           "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
         link: "/how-to-learn/",
-        image: "./images/how-to-study.png",
+        image: studyImage,
         icons: [
           {
             name: "code",
@@ -87,7 +100,7 @@ export const projects = [
         subtitle:
           "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
         link: "/procrastinate/",
-        image: "./images/procrastinate.png",
+        image: procrastinateImage,
         icons: [
           {
             name: "code",
@@ -101,7 +114,7 @@ export const projects = [
         subtitle:
           "sadfsadfsafsadfsa fsafd sa f asfd asd fsa df asdf safsa fd sadf",
         link: "/crypto/",
-        image: "./images/dappy.svg",
+        image: dappyImage,
         icons: [
           {
             name: "code",

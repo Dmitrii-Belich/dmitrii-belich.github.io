@@ -1,3 +1,4 @@
+import "../pages/index.css";
 import { projects, socialNetworks } from "../utils/data.js";
 import Project from "../components/Project.js";
 import Section from "../components/Section.js";
@@ -5,6 +6,9 @@ import MenuLink from "../components/MenuLink.js";
 import Icon from "../components/Icon.js";
 const footerContainer = document.querySelector(".footer__social-networks");
 const profileContainer = document.querySelector(".profile__icons");
+const Icons = document.querySelectorAll(".social");
+const profileFigure = document.querySelector(".profile__figure");
+
 
 function setMenu() {
   const sections = document.querySelectorAll("section");
@@ -15,30 +19,32 @@ function setMenu() {
     menu.append(element);
   });
 }
-projects.forEach((item) => {
-  const element = new Section({
-    title: item.title,
-    subtitle: item.subtitle,
-    id: item.id,
-  });
-  element.setProjects(item.exampls, function callback(item, container) {
-    const project = new Project({
+function setSections() {
+  projects.forEach((item) => {
+    const element = new Section({
       title: item.title,
       subtitle: item.subtitle,
-      link: item.link,
-      image: item.image,
+      id: item.id,
     });
-    project.setLinks(item.icons, function callback(item, container) {
-      const icon = new Icon(
-        { link: item.link, icon: item.icon },
-        "project-icon"
-      ).getIcon();
-      container.append(icon);
+    element.setProjects(item.exampls, function callback(item, container) {
+      const project = new Project({
+        title: item.title,
+        subtitle: item.subtitle,
+        link: item.link,
+        image: item.image,
+      });
+      project.setLinks(item.icons, function callback(item, container) {
+        const icon = new Icon(
+          { link: item.link, icon: item.icon },
+          "project-icon"
+        ).getIcon();
+        container.append(icon);
+      });
+      container.append(project.getProject());
     });
-    container.append(project.getProject());
+    document.querySelector(".content").append(element.getSection());
   });
-  document.querySelector(".content").append(element.getSection());
-});
+}
 socialNetworks.forEach((item) => {
   const element = new Icon(
     { link: item.link, icon: item.icon },
@@ -53,11 +59,11 @@ socialNetworks.forEach((item) => {
   ).getIcon();
   profileContainer.append(element);
 });
-setMenu();
-const Icons = document.querySelectorAll(".social");
-const profileFigure = document.querySelector(".profile__figure");
-const projectFigures = document.querySelectorAll(".project__figure");
 
+setSections();
+setMenu();
+
+const projectFigures = Array.from(document.querySelectorAll(".project__figure"));
 if (
   "ontouchstart" in window ||
   (window.DocumentTouch && document instanceof DocumentTouch)
@@ -66,6 +72,7 @@ if (
     item.classList.add("social_type_touch");
   });
 } else {
+  console.log(projectFigures)
   projectFigures.forEach((item) => {
     item.classList.add("project__figure_type_notouch");
   });
