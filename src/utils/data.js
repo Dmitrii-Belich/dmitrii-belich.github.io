@@ -11,6 +11,7 @@ import acrossImage from "../images/across-russia.png";
 import studyImage from "../images/how-to-study.png";
 import procrastinateImage from "../images/procrastinate.png";
 import dappyImage from "../images/dappy.svg";
+import rekommend from "../rekomendations/raklechitsya.pdf";
 export const socialIcons = {
   vk: vkIcon,
   inst: instIcon,
@@ -35,7 +36,7 @@ export const projects = [
         icons: [
           {
             name: "recomendation",
-            link: "../rekomendations/raklechitsya.pdf",
+            link: rekommend,
             icon: socialIcons.rekomend,
           },
           {
