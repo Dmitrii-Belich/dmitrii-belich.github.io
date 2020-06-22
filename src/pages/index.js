@@ -9,10 +9,10 @@ const profileContainer = document.querySelector(".profile__icons");
 const profileFigure = document.querySelector(".profile__figure");
 
 function setMenu() {
-  const sections = document.querySelectorAll("section");
+  const sections = document.querySelectorAll(".project-section__title");
   const menu = document.querySelector(".menu");
   sections.forEach((item) => {
-    const title = item.querySelector(".project-section__title").textContent;
+    const title = item.textContent;
     const element = new MenuLink(title, item.getAttribute("id")).getLink();
     menu.append(element);
   });

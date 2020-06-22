@@ -17,7 +17,7 @@ export default class Section {
     );
     this._section = this._element.querySelector(".project-section");
 
-    this._section.setAttribute("id", this._id);
+    this._elementTitle.setAttribute("id", this._id);
     this._elementTitle.textContent = this._title;
     this._elementSubtitle.textContent = this._subtitle;
   }
