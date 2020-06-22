@@ -4,6 +4,7 @@ import githubIcon from  "../images/github.png";
 import watsIcon from  "../images/whatsapp.png";
 import tgIcon from "../images/tg.png";
 import slackIcon from "../images/slack.png";
+import hhIcon from "../images/hh.png";
 import rekomendIcon from  "../images/rekomend.svg";
 import rakImage from "../images/raklechitsya.jpg";
 import mestoImage from "../images/mesto.png";
@@ -20,6 +21,8 @@ export const socialIcons = {
   tg: tgIcon,
   slack: slackIcon,
   rekomend: rekomendIcon,
+  hh: hhIcon,
+
 };
 export const projects = [
   {
@@ -30,7 +33,7 @@ export const projects = [
       {
         title: 'Проект "РакЛечится"',
         subtitle:
-          "Проект по переносу сайта с Tilda. Выполнен на Nuxt.js командой на конкурсной основе.",
+          "Проект по переносу сайта с Tilda. Выполнен на Nuxt.js, командой, на конкурсной основе.",
         link: "https://github.com/Dmitrii-Belich/raklechitsa",
         image: rakImage,
         icons: [

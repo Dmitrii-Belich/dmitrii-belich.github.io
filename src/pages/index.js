@@ -6,9 +6,7 @@ import MenuLink from "../components/MenuLink.js";
 import Icon from "../components/Icon.js";
 const footerContainer = document.querySelector(".footer__social-networks");
 const profileContainer = document.querySelector(".profile__icons");
-const Icons = document.querySelectorAll(".social");
 const profileFigure = document.querySelector(".profile__figure");
-
 
 function setMenu() {
   const sections = document.querySelectorAll("section");
@@ -62,7 +60,7 @@ socialNetworks.forEach((item) => {
 
 setSections();
 setMenu();
-
+const Icons = document.querySelectorAll(".social");
 const projectFigures = Array.from(document.querySelectorAll(".project__figure"));
 if (
   "ontouchstart" in window ||
