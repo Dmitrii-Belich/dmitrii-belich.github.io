@@ -20,7 +20,7 @@ module.exports = {
         loader: "file-loader?name=./images/[name].[ext]",
       },
       {
-        test: /\.(eot|ttf|woff|woff2)$/,
+        test: /\.(eot|ttf|woff|woff2|otf)$/,
         loader: "file-loader?name=./vendor/[name].[ext]",
       },
       {

@@ -11,7 +11,7 @@ import mestoImage from "../images/mesto.png";
 import acrossImage from "../images/across-russia.png";
 import studyImage from "../images/how-to-study.png";
 import procrastinateImage from "../images/procrastinate.png";
-import dappyImage from "../images/dappy.svg";
+import dappyImage from "../images/dappy.jpg";
 import rekommend from "../rekomendations/raklechitsya.pdf";
 export const socialIcons = {
   vk: vkIcon,
@@ -162,5 +162,40 @@ export const socialNetworks = [
     link:
       "https://vk.com/away.php?utf=1&to=https%3A%2F%2Fjoin.slack.com%2Ft%2Fbelichds%2Fshared_invite%2Fzt-dhlqayr8-WI~TBEZeYWLArgm7Um4gZQ",
     icon: socialIcons.slack,
+  },
+];
+
+export const technologies = [
+  {
+    name: "Vue.js",
+    percent: "30",
+  },
+  {
+    name: "Vuex",
+    percent: "40",
+  },
+  {
+    name: "Nuxt.js",
+    percent: "25",
+  },
+  {
+    name: "ООП",
+    percent: "60",
+  },
+  {
+    name: "Webpack",
+    percent: "40",
+  },
+  {
+    name: "БЭМ",
+    percent: "80",
+  },
+  {
+    name: "Адаптивность",
+    percent: "90",
+  },
+  {
+    name: "GitHub",
+    percent: "60",
   },
 ];
