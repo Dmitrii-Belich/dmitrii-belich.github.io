@@ -179,7 +179,7 @@ export const technologies = [
     percent: "25",
   },
   {
-    name: "ООП",
+    name: "OOP",
     percent: "60",
   },
   {
@@ -187,11 +187,11 @@ export const technologies = [
     percent: "40",
   },
   {
-    name: "БЭМ",
+    name: "BEM",
     percent: "80",
   },
   {
-    name: "Адаптивность",
+    name: "Adaptivity",
     percent: "90",
   },
   {

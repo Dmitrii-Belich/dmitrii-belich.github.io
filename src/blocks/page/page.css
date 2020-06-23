@@ -1,5 +1,5 @@
 .page {
-  font-family: 'Nautilus Pompilius',  'Montserrat',  'Arial', sans-serif;
+  font-family: 'For text', 'Nautilus Pompilius',  'Montserrat',  'Arial', sans-serif;
   margin: 0 auto;
   min-width: 320px;
    background: black url(../../images/1579702791_18-p-foni-s-chernimi-kirpichnimi-stenami-41.jpg); 
@@ -14,15 +14,6 @@
   background-attachment: fixed;
 }
 
-
-@keyframes big {
-  from {
-    stroke-dashoffset: 628;
-  }
-  to {
-    stroke-dashoffset: 200;
-  }
-}
 
 
 

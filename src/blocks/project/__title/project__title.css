@@ -1,8 +1,9 @@
 .project__title {
+  font-family: 'Nautilus Pompilius';
   text-align: center;
   margin: 20px 0;
-  font-size: 23px;
-  color: rgb(0, 89, 255);
+  font-size: 28px;
+/*   color: rgb(0, 89, 255); */
 
 }
 
