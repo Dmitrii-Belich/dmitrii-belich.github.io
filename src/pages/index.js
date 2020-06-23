@@ -1,13 +1,17 @@
 import "./index.css";
-import { projects, socialNetworks } from "../utils/data.js";
+import { projects, socialNetworks, technologies } from "../utils/data.js";
 import Project from "../components/Project.js";
 import Section from "../components/Section.js";
 import MenuLink from "../components/MenuLink.js";
 import Icon from "../components/Icon.js";
+import Technology from "../components/Technology.js";
 const footerContainer = document.querySelector(".footer__social-networks");
 const profileContainer = document.querySelector(".profile__icons");
 const profileFigure = document.querySelector(".profile__figure");
-
+const technologiesContainer = document.querySelector(
+  ".technologies__container"
+);
+const needCheck = [];
 function setMenu() {
   const sections = document.querySelectorAll(".project-section__title");
   const menu = document.querySelector(".menu");
@@ -57,11 +61,24 @@ socialNetworks.forEach((item) => {
   ).getIcon();
   profileContainer.append(element);
 });
-
+function setTechnologies() {
+  technologies.forEach((item) => {
+    const techn = new Technology(
+      { name: item.name, percent: item.percent },
+      "technology"
+    ).getTechnology();
+    technologiesContainer.append(techn);
+    needCheck.push(false);
+  });
+}
 setSections();
+setTechnologies();
 setMenu();
+
 const Icons = document.querySelectorAll(".social");
-const projectFigures = Array.from(document.querySelectorAll(".project__figure"));
+const projectFigures = Array.from(
+  document.querySelectorAll(".project__figure")
+);
 if (
   "ontouchstart" in window ||
   (window.DocumentTouch && document instanceof DocumentTouch)
@@ -75,3 +92,37 @@ if (
   });
   profileFigure.classList.add("profile__figure_type_notouch");
 }
+
+function isOnVisibleSpace(element) {
+  const bodyHeight = window.innerHeight;
+  const elemRect = element.getBoundingClientRect();
+  //console.log(elemRect)
+  const offset = elemRect.bottom; // - bodyRect.top;
+  if (offset < 0) return false;
+  if (offset > bodyHeight) return false;
+  return true;
+}
+const listenedElements = document.querySelectorAll(".technology__progress");
+
+window.addEventListener("scroll", function () {
+  if (
+    !needCheck.reduce((summ, item) => {
+      return (summ *= item);
+    })
+  ) {
+    listenedElements.forEach((item, i) => {
+      if (
+        Array.from(item.classList).find((item) => {
+          return item == "technology__progress_type_visible";
+        })
+      ) {
+        needCheck[i] = true;
+        return;
+      }
+      const result = isOnVisibleSpace(item);
+      if (result) {
+        item.classList.add("technology__progress_type_visible");
+      }
+    });
+  }
+});

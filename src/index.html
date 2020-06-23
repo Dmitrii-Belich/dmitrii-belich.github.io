@@ -43,7 +43,7 @@
             Я - начинающий фронтенд-разработчик с большим стремлением развиваться! В данный момент прохожу обучение в Яндекс.Практикум и участвую во всех дополнительных эвентах. В последнем конкурсе по переносу сайта для НКО "РакЛечится" моя команда вышла в четверку лучших среди 22 участников! Кроме того я учавствовал в хакатоне по верстке, организованном Яндексом. 
           </p>
           <p class="profile__text">Я ответственный и не боюсь сложностей. В проекте для НКО "РакЛечится" я брал на себя самые сложные задачи, не боясь недостатка знаний по некоторым темам. Сам обучался необходимому и делал все максимально качественно. Над этим проектом я трудился по 8 часов в день, несмотря на то, что он был не обязательный и не предполагал никаких санкций и наград (успевая при этом успешно сдавать сессию в университете). Очень хочу найти интересные проекты, которые помогут мне в обучении и развитии на пути фронтенда!</p>
-          <h3 class="profile__paragraph-title">Технологии</h3>
+<!--           <h3 class="profile__paragraph-title">Технологии</h3>
           <ul class="profile__technologies">
             <li class="profile__technology">Vue.js</li>
             <li class="profile__technology">Vuex</li>
@@ -53,8 +53,24 @@
             <li class="profile__technology">БЭМ</li>
             <li class="profile__technology">Адаптивность</li>
             <li class="profile__technology">GitHub</li>
-          </ul>
+          </ul> -->
         </div>
+      </section>
+      <section class="technologies">
+        <h2 class="technologies__title project-section__title" id="technologies">
+          Технологии
+        </h2>
+        <div class="technologies__container">
+          <template id="technology">
+          <div class="technology">
+            <h3 class="technology__title"></h3>
+            <svg class="technology__progress-bar">
+              <circle class="technology__bg" cx="110" cy="110" r="100"></circle>
+              <circle class="technology__progress" cx="110" cy="110" r="100"></circle>
+            </svg>
+          </div>
+        </template>
+    </div>
       </section>
     </main>
     <footer class="footer">

@@ -1,9 +1,37 @@
+@keyframes neon {
+  0% {
+    text-shadow: none;
+  }
+
+  20% {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #0000ff,
+    0 0 40px #0000ff, 0 0 80px #0000ff;
+  }
+  30% {
+    text-shadow: none;
+  }
+  80% {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #0000ff,
+    0 0 40px #0000ff, 0 0 80px #0000ff;
+  }
+  90% {
+    text-shadow: none;
+  }
+  100% {
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #0000ff,
+    0 0 40px #0000ff, 0 0 80px #0000ff;
+  }
+}
+
 .header__title {
+  font-family: "Neon";
   display: block;
   font-weight: 900;
-  font-size: 40px;
+  font-size: 60px;
   margin: 35px 0;
   text-align: center;
+  color: rgb(0, 68, 255);
+    animation: neon 3s ease-in-out infinite alternate;  
 }
 
 @media screen and (max-width: 800px) {
