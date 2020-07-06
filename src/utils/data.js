@@ -12,6 +12,7 @@ import acrossImage from "../images/across-russia.png";
 import studyImage from "../images/how-to-study.png";
 import procrastinateImage from "../images/procrastinate.png";
 import dappyImage from "../images/dappy.jpg";
+import notionImage from "../images/Notion.png";
 import rekommend from "../rekomendations/raklechitsya.pdf";
 export const socialIcons = {
   vk: vkIcon,
@@ -123,6 +124,20 @@ export const projects = [
           {
             name: "code",
             link: "https://github.com/Dmitrii-Belich/crypto",
+            icon: socialIcons.github,
+          },
+        ],
+      },
+      {
+        title: 'Проект "Notion"',
+        subtitle:
+          "Создан в рамках конкурса Hackatone по JS, во время которого, за 24 часа, с коллегой, была создана копия Notion. ",
+        link: "/jshackatone/",
+        image: notionImage,
+        icons: [
+          {
+            name: "code",
+            link: "https://github.com/Dmitrii-Belich/jshackatone",
             icon: socialIcons.github,
           },
         ],
