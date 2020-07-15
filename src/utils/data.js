@@ -54,12 +54,12 @@ export const projects = [
         title: 'Проект "Место"',
         subtitle:
           "Проект, созданный по программе обучения в Яндекс.Практикум, призван продемонстрировать навыки JavaScript, ООП, валидации форм и работы с WebPack. (В разработке)",
-        link: "/mesto",
+        link: "/mesto-vanilla/",
         image: mestoImage,
         icons: [
           {
             name: "code",
-            link: "https://github.com/Dmitrii-Belich/mesto",
+            link: "https://github.com/Dmitrii-Belich/mesto-vanilla/",
             icon: socialIcons.github,
           },
         ],
