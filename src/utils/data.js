@@ -53,7 +53,7 @@ export const projects = [
         title: 'Проект "РакЛечится"',
         subtitle:
           "Проект по переносу сайта с Tilda. Выполнен на Nuxt.js, командой, на конкурсной основе.",
-        link: "https://github.com/Dmitrii-Belich/raklechitsa",
+        link: "/raklechitsa/",
         image: rakImage,
         icons: [
           {
