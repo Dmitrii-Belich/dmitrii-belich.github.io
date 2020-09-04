@@ -8,12 +8,16 @@ import hhIcon from "../images/hh.png";
 import rekomendIcon from  "../images/rekomend.svg";
 import rakImage from "../images/raklechitsya.jpg";
 import mestoImage from "../images/mesto.png";
+import mestoReactImage from "../images/mesto-react.png";
+import mestoNodeImage from "../images/mesto-node.png";
+import todoReactImage from "../images/todo-react.png";
 import acrossImage from "../images/across-russia.png";
 import studyImage from "../images/how-to-study.png";
 import procrastinateImage from "../images/procrastinate.png";
 import dappyImage from "../images/dappy.jpg";
 import notionImage from "../images/Notion.png";
 import rekommend from "../rekomendations/raklechitsya.pdf";
+
 export const socialIcons = {
   vk: vkIcon,
   inst: instIcon,
@@ -31,6 +35,20 @@ export const projects = [
     subtitle: "Крупные проекты в которых я принимал участие.",
     id: "main",
     exampls: [
+      {
+        title: 'Проект "Mesto" Backend + Frontend',
+        subtitle:
+          "Проект, созданный по программе обучения в Яндекс.Практикум, призван продемонстрировать создания сервера на Express.js. (В разработке)",
+        link: "",
+        image: mestoNodeImage,
+        icons: [
+          {
+            name: "code",
+            link: "https://github.com/Dmitrii-Belich/express-mesto",
+            icon: socialIcons.github,
+          },
+        ],
+      },
       {
         title: 'Проект "РакЛечится"',
         subtitle:
@@ -51,9 +69,37 @@ export const projects = [
         ],
       },
       {
-        title: 'Проект "Место"',
+        title: 'Проект "Mesto" на React.js',
         subtitle:
-          "Проект, созданный по программе обучения в Яндекс.Практикум, призван продемонстрировать навыки JavaScript, ООП, валидации форм и работы с WebPack. (В разработке)",
+          "Проект, созданный по программе обучения в Яндекс.Практикум, призван продемонстрировать навыки работы с React.",
+        link: "/mesto-react/",
+        image: mestoReactImage,
+        icons: [
+          {
+            name: "code",
+            link: "https://github.com/Dmitrii-Belich/mesto-react/",
+            icon: socialIcons.github,
+          },
+        ],
+      },
+      {
+        title: 'To Do List',
+        subtitle:
+          "Проект, созданный мною, для демонстрации навыков использования React. (В разработке)",
+        link: "/todolist/",
+        image: todoReactImage,
+        icons: [
+          {
+            name: "code",
+            link: "https://github.com/Dmitrii-Belich/todolist/",
+            icon: socialIcons.github,
+          },
+        ],
+      },
+      {
+        title: 'Проект "Mesto"',
+        subtitle:
+          "Проект, созданный по программе обучения в Яндекс.Практикум, призван продемонстрировать навыки JavaScript, ООП, валидации форм и работы с WebPack.",
         link: "/mesto-vanilla/",
         image: mestoImage,
         icons: [
@@ -173,44 +219,60 @@ export const socialNetworks = [
     icon: socialIcons.tg,
   },
   {
-    name: "slack",
+    name: "HeadHunter",
     link:
-      "https://vk.com/away.php?utf=1&to=https%3A%2F%2Fjoin.slack.com%2Ft%2Fbelichds%2Fshared_invite%2Fzt-dhlqayr8-WI~TBEZeYWLArgm7Um4gZQ",
-    icon: socialIcons.slack,
+      "https://spb.hh.ru/resume/37350f7aff08123d5c0039ed1f76515051584f",
+    icon: socialIcons.hh,
   },
 ];
 
 export const technologies = [
   {
-    name: "Vue.js",
-    percent: "30",
+    name: "Express",
+    percent: "100",
+  },
+  {
+    name: "Node",
+    percent: "100",
+  },
+  {
+    name: "Redux",
+    percent: "100",
+  },
+  {
+    name: "React",
+    percent: "100",
+  },
+  {
+    name: "Vue",
+    percent: "100",
   },
   {
     name: "Vuex",
-    percent: "40",
+    percent: "100",
   },
   {
-    name: "Nuxt.js",
-    percent: "25",
+    name: "Nuxt",
+    percent: "100",
   },
   {
     name: "OOP",
-    percent: "60",
+    percent: "100",
   },
   {
     name: "Webpack",
-    percent: "40",
+    percent: "100",
   },
   {
     name: "BEM",
-    percent: "80",
+    percent: "100",
   },
   {
     name: "Adaptivity",
-    percent: "90",
+    percent: "100",
   },
   {
     name: "GitHub",
-    percent: "60",
+    percent: "100",
   },
 ];
