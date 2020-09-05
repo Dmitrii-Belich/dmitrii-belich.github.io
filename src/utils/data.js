@@ -38,8 +38,8 @@ export const projects = [
       {
         title: 'Проект "Mesto" Backend + Frontend',
         subtitle:
-          "Проект, созданный по программе обучения в Яндекс.Практикум, призван продемонстрировать создания сервера на Express.js. (В разработке)",
-        link: "",
+          "Проект, созданный по программе обучения в Яндекс.Практикум, призван продемонстрировать навыки создания сервера на Express.js. (В разработке)",
+        link: "https://github.com/Dmitrii-Belich/express-mesto",
         image: mestoNodeImage,
         icons: [
           {
